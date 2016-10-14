@@ -1,0 +1,36 @@
+---
+ip: "192.168.10.10"
+memory: 2048
+cpus: 1
+hostname: congadmin
+name: congadmin
+provider: virtualbox
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+folders:
+    - map: "/home/jd/PhpstormProjects/congAdmin"
+      to: "/home/vagrant/congadmin"
+
+sites:
+    - map: congadmin.dev
+      to: "/home/vagrant/congadmin/theApp/web"
+
+databases:
+    - congadmin
+
+# blackfire:
+#     - id: foo
+#       token: bar
+#       client-id: foo
+#       client-token: bar
+
+# ports:
+#     - send: 50000
+#       to: 5000
+#     - send: 7777
+#       to: 777
+#       protocol: udp

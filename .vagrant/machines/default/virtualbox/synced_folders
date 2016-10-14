@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/congadmin":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/congadmin","hostpath":"/home/jd/PhpstormProjects/congAdmin","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/jd/PhpstormProjects/congAdmin","disabled":false,"__vagrantfile":true}}}
